@@ -173,7 +173,8 @@ p.small {
         background: #0099cc;
     }
 
-.category-title {
+.category-title,
+.canvas-header h3 {
     color: #0099ff;
     font-size: 1.1em;
     margin-left: 5px;
@@ -183,7 +184,25 @@ p.small {
     text-align: center;
 }
 
+.list-nav a {
+    display: block;
+    padding: 10px 10px;
+}
+    .list-nav a:hover {
+        background: #f8f8f8;
+    }
+
 /* Forms */
+
+form label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+textarea {
+    resize: vertical;
+}
 
 .form-header {
     margin-bottom: 50px !important;
@@ -196,10 +215,19 @@ p.small {
 .form-control {
     box-sizing: border-box;
     display: inline-block;
-    padding: 12px 14px;
+    padding: 8px;
     width: 100%;
 }
 
 select.form-control {
     width: auto;
+}
+
+.canvas {
+    background: #fff;
+    padding: 10px;
+}
+
+.heading {
+    margin-bottom: 20px;
 }

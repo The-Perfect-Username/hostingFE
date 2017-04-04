@@ -1,0 +1,19 @@
+.settings-menu {
+    display: inline-block;
+    width: 230px;
+    border-right: 1px solid #e6e6e6;
+}
+
+    .settings-menu a {
+        font-size: 0.9em;
+        font-weight: 600;
+        color: #5c5c5c;
+    }
+
+.settings-body {
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 240px);
+    padding: 0 10px;
+}
