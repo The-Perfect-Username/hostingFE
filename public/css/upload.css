@@ -2,6 +2,32 @@
     height: calc(100vh - 290px);
 }
 
+#uploadBasicContainer {
+    padding: 20px;
+    background: #fff;
+}
+
+    #uploadBasicContainer label {
+        display: block;
+    }
+
+    #uploadBasicContainer form {
+        padding: 16px 20px 0 0;
+    }
+
+#uploadInfoFormWrapper {
+    display: inline-block;
+    width: 50%;
+}
+
+#uploadThumbnailWrapper {
+    padding: 10px 10px 10px 0;
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    box-sizing: border-box;
+}
+
 #uploadContainer {
     position: absolute;
     display: inline-block;
@@ -18,14 +44,14 @@
     margin-top: 20px;
 }
 
-form {
+#uploadForm {
     position: relative;
     box-sizing: border-box;
     background: #fff;
     padding: 20px;
 }
 
-button {
+#uploadForm button {
     font-size: 1.1em;
     width: 100%;
 }
@@ -86,3 +112,44 @@ button {
     flex-wrap: nowrap;
     justify-content: flex-end;
 }
+
+#previewImage {
+    border: 1px solid;
+    height: 250px;
+    width: 100%;
+}
+
+#previewImageTable {
+    padding: 10px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.small-thumbnails {
+    flex: auto;
+    border: 1px solid;
+    width: 70px;
+    height: 45px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.small-thumbnails.selected {
+    border-color: #0099ff;
+}
+.small-thumbnails.noselect {
+    cursor:not-allowed;
+}
+
+#uploadBasicFooter {
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    border-top: 1px solid #e6e6e6;
+}
+    #uploadBasicFooter button {
+        margin: 0 10px;
+    }
