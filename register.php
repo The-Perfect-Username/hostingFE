@@ -4,7 +4,9 @@
     <form id="loginForm">
         <div class="form-group form-header centre-text">
             <div class="logo-background">
-                <h1 class="initial">U<h1>
+                <h1 class="initial">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </h1>
             </div>
         </div>
         <div class="form-group">

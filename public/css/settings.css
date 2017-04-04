@@ -17,3 +17,7 @@
     width: calc(100% - 240px);
     padding: 0 10px;
 }
+
+form {
+    margin-bottom: 40px;
+}
