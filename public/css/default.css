@@ -24,6 +24,11 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 5px 0;
 }
 
+a {
+    text-decoration: none;
+    color: #0099ff;
+}
+
 body {
     background: #f9f9f9 !important;
 }
@@ -174,8 +179,27 @@ p.small {
     margin-left: 5px;
 }
 
+.centre-text {
+    text-align: center;
+}
+
+/* Forms */
+
+.form-header {
+    margin-bottom: 50px !important;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
 .form-control {
     box-sizing: border-box;
-    padding: 5px;
     display: inline-block;
+    padding: 12px 14px;
+    width: 100%;
+}
+
+select.form-control {
+    width: auto;
 }
