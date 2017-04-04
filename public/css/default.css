@@ -172,6 +172,9 @@ p.small {
     .btn-blue:hover {
         background: #0099cc;
     }
+.btn-default:hover {
+    background: #cccccc;
+}
 
 .category-title,
 .canvas-header h3 {

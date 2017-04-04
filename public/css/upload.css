@@ -1,0 +1,78 @@
+.container {
+    height: calc(100vh - 290px);
+}
+
+form {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    box-sizing: border-box;
+    width: 500px;
+    border: 1px solid;
+    background: #fff;
+    padding: 20px;
+}
+
+button {
+    font-size: 1.1em;
+    width: 100%;
+}
+
+.logo-background {
+    background: #0099ff;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    position: relative;
+}
+
+.initial {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 3em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	line-height: 26.4px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+    color: #fff;
+}
+
+#videoFileUpload {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+#videoFileUpload + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: #0099ff;
+    display: inline-block;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+}
+
+#videoFileUpload:focus + label,
+#videoFileUpload + label:hover {
+    background-color: #0099cc;
+}
+
+#uploadBtnContainer {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    display: none;
+}
