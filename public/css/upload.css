@@ -153,3 +153,24 @@
     #uploadBasicFooter button {
         margin: 0 10px;
     }
+
+/**************************************
+Schedule publishing
+**************************************/
+#schedulePublishForm {
+    position: relative;
+    margin: auto;
+    width: 550px;
+    background: #fff;
+    padding: 20px 20px 10px 20px;
+    box-sizing: border-box;
+}
+
+#uploadScheduleFooter {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+    #uploadScheduleFooter input {
+        margin-left: 10px;
+    }
