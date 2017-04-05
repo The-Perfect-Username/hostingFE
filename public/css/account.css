@@ -49,6 +49,7 @@
     }
 
     #accountHeaderFooter nav a {
+        font-size: 0.9em;
         padding: 0 10px;
         color: #5c5c5c;
     }
