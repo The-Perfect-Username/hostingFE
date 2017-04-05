@@ -35,7 +35,6 @@ body {
 
 main {
     position: relative;
-    padding-top: 20px;
 }
 
 footer {
@@ -59,6 +58,11 @@ footer {
     margin: auto;
     width: 80%;
     box-sizing: border-box;
+    padding-top: 20px;
+}
+
+.no-top {
+    padding: 0;
 }
 
 /* Video canvas */
@@ -122,15 +126,23 @@ footer {
             color: #0099ff;
         }
 
+.video-canvas-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+}
 
 /* Video layout */
 .grid-style {
     display: inline-block;
+    width: 20%;
+    margin: 0;
 }
 
 .list-style {
     display: block;
     width: 450px;
+    margin-right: 5px;
 }
     .list-style .video-thumbnail {
         display: inline-block;

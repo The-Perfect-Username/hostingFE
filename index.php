@@ -9,7 +9,7 @@
                 <option value="list-style">List</option>
             </select>
         </div>
-        <div class="canvas-body">
+        <div class="video-canvas-body canvas-body">
             <div class="video-item grid-style">
                 <div class="video-thumbnail">
                     <div class="tn-op"></div>
@@ -66,6 +66,86 @@
                 </div>
                 <div class="video-info">
                     <h3 class="video-title">How to become yilmaz and new t-shirts</h3>
+                    <p class="username small">FriendlyJordies</p>
+                    <p class="time-ago small">12 minutes ago</p>
+                </div>
+            </div>
+            <div class="video-item grid-style">
+                <div class="video-thumbnail">
+                    <div class="tn-op"></div>
+                </div>
+                <div class="video-info">
+                    <h3 class="video-title">How to become yilmaz</h3>
+                    <p class="username small">FriendlyJordies</p>
+                    <p class="time-ago small">12 minutes ago</p>
+                </div>
+            </div>
+            <div class="video-item grid-style">
+                <div class="video-thumbnail">
+                    <div class="tn-op"></div>
+                </div>
+                <div class="video-info">
+                    <h3 class="video-title">How to become yilmaz</h3>
+                    <p class="username small">FriendlyJordies</p>
+                    <p class="time-ago small">12 minutes ago</p>
+                </div>
+            </div>
+            <div class="video-item grid-style">
+                <div class="video-thumbnail">
+                    <div class="tn-op"></div>
+                </div>
+                <div class="video-info">
+                    <h3 class="video-title">How to become yilmaz</h3>
+                    <p class="username small">FriendlyJordies</p>
+                    <p class="time-ago small">12 minutes ago</p>
+                </div>
+            </div>
+            <div class="video-item grid-style">
+                <div class="video-thumbnail">
+                    <div class="tn-op"></div>
+                </div>
+                <div class="video-info">
+                    <h3 class="video-title">How to become yilmaz</h3>
+                    <p class="username small">FriendlyJordies</p>
+                    <p class="time-ago small">12 minutes ago</p>
+                </div>
+            </div>
+            <div class="video-item grid-style">
+                <div class="video-thumbnail">
+                    <div class="tn-op"></div>
+                </div>
+                <div class="video-info">
+                    <h3 class="video-title">How to become yilmaz</h3>
+                    <p class="username small">FriendlyJordies</p>
+                    <p class="time-ago small">12 minutes ago</p>
+                </div>
+            </div>
+            <div class="video-item grid-style">
+                <div class="video-thumbnail">
+                    <div class="tn-op"></div>
+                </div>
+                <div class="video-info">
+                    <h3 class="video-title">How to become yilmaz</h3>
+                    <p class="username small">FriendlyJordies</p>
+                    <p class="time-ago small">12 minutes ago</p>
+                </div>
+            </div>
+            <div class="video-item grid-style">
+                <div class="video-thumbnail">
+                    <div class="tn-op"></div>
+                </div>
+                <div class="video-info">
+                    <h3 class="video-title">How to become yilmaz</h3>
+                    <p class="username small">FriendlyJordies</p>
+                    <p class="time-ago small">12 minutes ago</p>
+                </div>
+            </div>
+            <div class="video-item grid-style">
+                <div class="video-thumbnail">
+                    <div class="tn-op"></div>
+                </div>
+                <div class="video-info">
+                    <h3 class="video-title">How to become yilmaz</h3>
                     <p class="username small">FriendlyJordies</p>
                     <p class="time-ago small">12 minutes ago</p>
                 </div>
