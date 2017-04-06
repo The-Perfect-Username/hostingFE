@@ -49,6 +49,11 @@ footer {
     border-color: #e5e6e9 #dfe0e4 #d0d1d5;
 }
 
+.standard-wrapper {
+    background: #fff;
+    padding: 20px;
+}
+
 .standard-header {
     color: #0099ff;
 }
@@ -59,6 +64,11 @@ footer {
     width: 80%;
     box-sizing: border-box;
     padding-top: 20px;
+}
+
+.twenty-top {
+    position: relative;
+    margin-top: 20px;
 }
 
 .no-top {

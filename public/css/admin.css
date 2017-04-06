@@ -1,0 +1,81 @@
+.standard-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.justify-space-between-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.justify-centre-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#adminMenu {
+    width: 100%;
+}
+
+#adminPanel {
+    margin-top: 50px;
+}
+
+.admin-nav-item {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    margin: 0 10px;
+    position:relative;
+    background: #0099ff;
+}
+    .admin-nav-item:hover {
+        cursor: pointer;
+        background: #0099cc;
+    }
+
+    .admin-nav-item i.fa {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1.8em;
+        color: #fff;
+    }
+
+.admin-panel {
+    width: 48%;
+    min-width: 360px;
+    height: 400px;
+}
+
+.admin-row {
+    padding: 12px 14px;
+}
+
+    .admin-row:hover {
+        background-color: #f9f9f9;
+    }
+
+.row-data,
+.row-data > * {
+    display: inline-block;
+}
+
+    .admin-row .row-data:nth-child(1) {
+        width: 200px;
+        text-align: left;
+    }
+
+    .admin-row .row-data:nth-child(2) {
+        width: 170px;
+        text-align: right;
+    }
+
+    .admin-row .row-data:nth-child(3) {
+        width: 80px;
+        text-align: right;
+    }
