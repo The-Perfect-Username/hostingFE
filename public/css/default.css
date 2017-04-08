@@ -258,6 +258,16 @@ textarea {
     width: 100%;
 }
 
+.align-right {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:flex-end;
+}
+
+.m-left {
+    margin-left: 10px;
+}
+
 select.form-control {
     width: auto;
 }

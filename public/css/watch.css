@@ -1,0 +1,175 @@
+.container.wide {
+    width: 95%;
+}
+
+#videoPlayerContainer {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background: #000;
+}
+
+#videoBottom {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#videoPlayer {
+    background: #777;
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#leftSection {
+    width: 70%;
+    border-left: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    background: #fff;
+}
+
+#relatedVideos {
+    width: 30%;
+    box-sizing: border-box;
+    border-right: 1px solid #e6e6e6;
+    background: #fff;
+}
+
+    #relatedVideos .rel-video {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 5px;
+        border-bottom: 1px solid #e6e6e6;
+    }
+
+        #relatedVideos .rel-video:hover {
+            background: #f9f9f9;
+            cursor: pointer;
+        }
+
+        .rel-video-thmb {
+            border: 1px solid;
+            width: 140px;
+            height: 80px;
+            background: #000;
+        }
+
+        .rel-video-info {
+            width: calc(100% - 150px);
+        }
+        .rel-video-title {
+            font-size: 0.95em;
+        }
+        .rel-video-user,
+        .rel-video-time-ago {
+            font-size: 0.8em !important;
+        }
+
+#videoInformation {
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #fff;
+}
+    #videoInformation .time-ago {
+        margin-left: 10px;
+    }
+
+.video-info {
+    width: 65%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.main-video-title,
+.views {
+    font-weight: 400;
+    color: #000;
+}
+
+.views {
+    text-align: right;
+}
+
+.video-stats {
+    width: 28%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#videoVotes {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+#videoVoteControl {
+    text-align: right;
+}
+
+.vote-control {
+    display: inline-block;
+    margin-left: 10px;
+    color: #999;
+}
+
+.n-of-votes {
+    font-size: 0.7em;
+}
+
+.vote-btn:hover {
+    cursor: pointer;
+    color: #777;
+}
+
+.selected {
+    color: #0099ff;
+}
+
+.time-ago {
+    font-size: 0.9em;
+}
+
+#voteBar {
+    margin-top: 5px;
+    height: 2px;
+    background: #999;
+    width: 180px;
+}
+
+#likePercentage {
+    display: block;
+    width: 0%;
+    background: #0099ff;
+}
+
+#descriptionSection {
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 5px 15px;
+    background: #fafafa;
+    color: #999;
+}
+
+    #descriptionSection p {
+        font-size: 0.9em;
+    }
+
+#commentsSection {
+    background: #fff;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+#commentButtons {
+    display: none;
+}
