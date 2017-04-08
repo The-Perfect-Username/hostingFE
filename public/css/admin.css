@@ -25,8 +25,8 @@
 }
 
 .admin-nav-item {
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     border-radius: 100%;
     margin: 0 10px;
     position:relative;
@@ -42,21 +42,27 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 1.8em;
+        font-size: 1.2em;
         color: #fff;
     }
 
 .admin-panel {
     width: 48%;
     min-width: 360px;
-    height: 400px;
+    margin-bottom: 40px;
 }
 
-.admin-row {
+.admin-panel.wide {
+    width: 70%;
+}
+
+.admin-row,
+.warning-row {
     padding: 12px 14px;
 }
 
-    .admin-row:hover {
+    .admin-row:hover,
+    .warning-row:hover {
         background-color: #f9f9f9;
     }
 
@@ -79,3 +85,23 @@
         width: 80px;
         text-align: right;
     }
+
+.report,
+.feedback {
+    padding-bottom: 20px;
+}
+    .report nav a {
+        margin-right: 10px;
+        font-size: 0.9em;
+    }
+
+.report-evidence {
+    color: #5c5c5c;
+    font-size: 0.95em;
+}
+
+span.time-ago {
+    font-size: 0.85em;
+    margin-left: 5px;
+    color: #666;
+}
