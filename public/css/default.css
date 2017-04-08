@@ -270,3 +270,66 @@ select.form-control {
 .heading {
     margin-bottom: 20px;
 }
+
+/*************************************
+Modal design
+*************************************/
+
+.modal {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.modal-background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0.7;
+}
+
+.modal-container {
+    position: relative;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 600px;
+}
+
+.modal-header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background: #fff;
+}
+    .modal-header .modal-title {
+        font-weight: 400 !important;
+    }
+
+    .modal-header a.close-modal {
+        color: #999 !important;
+    }
+
+.modal-body {
+    padding: 10px;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.modal-footer {
+    border-top: 1px solid #e6e6e6;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    background: #fff;
+    padding: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}

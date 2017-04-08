@@ -24,4 +24,14 @@ $(document).ready(function() {
 
     });
 
+    $(".close-modal i.fa").hover(function(e) {
+        var fa = $(this);
+        fa.removeClass("fa-times");
+        fa.addClass("fa-times-circle");
+    }, function(e) {
+        var fa = $(this);
+        fa.removeClass("fa-times-circle");
+        fa.addClass("fa-times");
+    });
+
 });
