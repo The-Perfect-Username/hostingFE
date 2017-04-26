@@ -11,9 +11,7 @@
         </div>
         <div class="video-canvas-body canvas-body">
             <div class="video-item grid-style">
-                <div class="video-thumbnail">
-                    <div class="tn-op"></div>
-                </div>
+                <div class="video-thumbnail"></div>
                 <div class="video-info">
                     <h3 class="video-title">How to become yilmaz</h3>
                     <p class="username small">FriendlyJordies</p>
@@ -22,7 +20,6 @@
             </div>
             <div class="video-item grid-style">
                 <div class="video-thumbnail">
-                    <div class="tn-op"></div>
                 </div>
                 <div class="video-info">
                     <h3 class="video-title">How to become yilmaz and new t-shirts</h3>
@@ -32,7 +29,6 @@
             </div>
             <div class="video-item grid-style">
                 <div class="video-thumbnail">
-                    <div class="tn-op"></div>
                 </div>
                 <div class="video-info">
                     <h3 class="video-title">How to become yilmaz</h3>
@@ -42,7 +38,6 @@
             </div>
             <div class="video-item grid-style">
                 <div class="video-thumbnail">
-                    <div class="tn-op"></div>
                 </div>
                 <div class="video-info">
                     <h3 class="video-title">How to become yilmaz and new t-shirts</h3>
@@ -52,7 +47,6 @@
             </div>
             <div class="video-item grid-style">
                 <div class="video-thumbnail">
-                    <div class="tn-op"></div>
                 </div>
                 <div class="video-info">
                     <h3 class="video-title">How to become yilmaz</h3>
@@ -62,7 +56,6 @@
             </div>
             <div class="video-item grid-style">
                 <div class="video-thumbnail">
-                    <div class="tn-op"></div>
                 </div>
                 <div class="video-info">
                     <h3 class="video-title">How to become yilmaz and new t-shirts</h3>
@@ -72,7 +65,6 @@
             </div>
             <div class="video-item grid-style">
                 <div class="video-thumbnail">
-                    <div class="tn-op"></div>
                 </div>
                 <div class="video-info">
                     <h3 class="video-title">How to become yilmaz</h3>
@@ -82,7 +74,6 @@
             </div>
             <div class="video-item grid-style">
                 <div class="video-thumbnail">
-                    <div class="tn-op"></div>
                 </div>
                 <div class="video-info">
                     <h3 class="video-title">How to become yilmaz</h3>
@@ -92,7 +83,6 @@
             </div>
             <div class="video-item grid-style">
                 <div class="video-thumbnail">
-                    <div class="tn-op"></div>
                 </div>
                 <div class="video-info">
                     <h3 class="video-title">How to become yilmaz</h3>
@@ -102,7 +92,6 @@
             </div>
             <div class="video-item grid-style">
                 <div class="video-thumbnail">
-                    <div class="tn-op"></div>
                 </div>
                 <div class="video-info">
                     <h3 class="video-title">How to become yilmaz</h3>
@@ -112,7 +101,6 @@
             </div>
             <div class="video-item grid-style">
                 <div class="video-thumbnail">
-                    <div class="tn-op"></div>
                 </div>
                 <div class="video-info">
                     <h3 class="video-title">How to become yilmaz</h3>
@@ -122,7 +110,6 @@
             </div>
             <div class="video-item grid-style">
                 <div class="video-thumbnail">
-                    <div class="tn-op"></div>
                 </div>
                 <div class="video-info">
                     <h3 class="video-title">How to become yilmaz</h3>
@@ -132,7 +119,6 @@
             </div>
             <div class="video-item grid-style">
                 <div class="video-thumbnail">
-                    <div class="tn-op"></div>
                 </div>
                 <div class="video-info">
                     <h3 class="video-title">How to become yilmaz</h3>
@@ -142,7 +128,6 @@
             </div>
             <div class="video-item grid-style">
                 <div class="video-thumbnail">
-                    <div class="tn-op"></div>
                 </div>
                 <div class="video-info">
                     <h3 class="video-title">How to become yilmaz</h3>
@@ -152,7 +137,6 @@
             </div>
             <div class="video-item grid-style">
                 <div class="video-thumbnail">
-                    <div class="tn-op"></div>
                 </div>
                 <div class="video-info">
                     <h3 class="video-title">How to become yilmaz</h3>
@@ -162,7 +146,6 @@
             </div>
             <div class="video-item grid-style">
                 <div class="video-thumbnail">
-                    <div class="tn-op"></div>
                 </div>
                 <div class="video-info">
                     <h3 class="video-title">How to become yilmaz</h3>

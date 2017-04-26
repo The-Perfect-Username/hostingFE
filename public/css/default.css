@@ -8,7 +8,7 @@ body {
 }
 
 * {
-    font-family: "helvetica";
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -22,6 +22,10 @@ header {
 h1, h2, h3, h4, h5, h6, p {
     padding: 0;
     margin: 5px 0;
+}
+
+p {
+    color: inherit;
 }
 
 a {
@@ -56,6 +60,10 @@ footer {
 
 .standard-header {
     color: #0099ff;
+}
+
+.basic-title {
+    color: #404040;
 }
 
 .container {
@@ -115,22 +123,6 @@ footer {
     .video-item:hover {
         cursor: pointer;
     }
-
-    .video-item .tn-op {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background: -webkit-linear-gradient(#000, #fff); /* For Safari 5.1 to 6.0 */
-        background: -o-linear-gradient(#000, #fff); /* For Opera 11.1 to 12.0 */
-        background: -moz-linear-gradient(#000, #fff); /* For Firefox 3.6 to 15 */
-        background: linear-gradient(#000, #fff);
-        opacity: 0;
-        transition: opacity 0.2s ease-in-out;
-    }
-
-        .video-item:hover .tn-op {
-            opacity: 0.1;
-        }
 
         .video-item:hover .video-title {
             color: #0099ff;
