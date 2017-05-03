@@ -2,6 +2,7 @@
     position: relative;
     margin: auto;
     width: 100%;
+    background: #fff;
 }
 
 #accountHeader {
@@ -23,7 +24,7 @@
     #coverInfo {
         position: absolute;
         bottom: 20px;
-        left: 400px;
+        left: 350px;
         color: #fff;
     }
         #coverInfo h3 {
@@ -39,10 +40,10 @@
     width: 280px;
     min-height: 400px;
     position: fixed;
-    top: 120px;
+    top: 90px;
     background: #fff;
-    -webkit-box-shadow: 0 0 10px #333333;
-        box-shadow: 0 0 10px #333333;
+    -webkit-box-shadow: 0 0 10px #999;
+        box-shadow: 0 0 10px #999;
     transform: translateX(20px);
 }
 
@@ -79,7 +80,7 @@
     }
 
 #accountBody {
-    position: absolute;
+    position: relative;
     width: 700px;
     padding: 20px 0;
     left: 360px;

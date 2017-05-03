@@ -41,6 +41,7 @@
             </div>
         </section>
         <section id="accountBody">
+            <?php for($i = 0; $i < 20; $i++) { ?>
             <div class="video-item list-style">
                 <div class="video-thumbnail"></div>
                 <div class="video-info">
@@ -49,6 +50,7 @@
                     <p class="video-desctiption">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus consequat auctor eros in pulvinar. Praesent nec ornare sapien, et luctus nisl.</p>
                 </div>
             </div>
+            <?php }; ?>
         </section>
     </section>
 </section>
