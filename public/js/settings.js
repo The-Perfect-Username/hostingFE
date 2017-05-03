@@ -1,7 +1,14 @@
 $(document).ready(function() {
 
+
+    /*************************************************
+    Navigation controls
+    *************************************************/
     $(".list-nav a").on("click", function (e) {
         e.preventDefault();
+        var body = $(".settings-body");
+        body.empty();
+        body.load($(this).attr("href"));
     });
 
     $(document).on("click", "#swapEmails", function(e) {

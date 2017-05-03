@@ -14,10 +14,11 @@
     box-sizing: border-box;
     display: inline-block;
     vertical-align: top;
-    width: calc(100% - 240px);
+    width: 700px;
     padding: 0 10px;
 }
 
 form {
+    width: 500px !important;
     margin-bottom: 40px;
 }

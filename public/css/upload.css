@@ -123,16 +123,16 @@
     padding: 10px 0 0 0;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .small-thumbnails {
-    flex: auto;
     border: 1px solid;
-    width: 70px;
+    width: 75px;
     height: 45px;
+    margin-bottom: 10px;
     display: inline-block;
     box-sizing: border-box;
-    margin: 5px;
     cursor: pointer;
 }
 

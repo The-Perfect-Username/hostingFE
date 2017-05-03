@@ -4,7 +4,14 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
-    overflow-x: hidden;
+}
+
+body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    margin: 0 44px 0 0;
 }
 
 * {
@@ -12,11 +19,15 @@ body {
 }
 
 header {
-    position: relative;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
     width: 100%;
-    height: 80px;
-    background: #fff;
-    border-bottom: 1px solid #e6e6e6;
+    height: 50px;
+    background: #0099ff;
+    color: #006bb3;
+    border-bottom: 1px solid #0089e6;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -43,9 +54,49 @@ main {
 
 footer {
     position: relative;
-    height: 100px;
+    height: 300px;
     top: 80px;
-    display: none;
+    background-color: #0099ff;
+}
+#leftControls {
+    margin-left: 50px;
+}
+
+#leftControls {
+    margin-right: 50px;
+}
+
+#accessControls {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+    #accessControls a {
+        color: #fff;
+        margin: 0 10px;
+    }
+
+#logo {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif !important;
+    font-size: 2em;
+    color: #fff;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+}
+
+#searchBar {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+#searchBarInput {
+    border-radius: 30px;
+    padding: 6px 14px;
+    border: none;
+    min-width: 200px;
+    width: 400px;
 }
 
 .standard-border {
@@ -69,9 +120,9 @@ footer {
 .container {
     position: relative;
     margin: auto;
+    margin-top: 70px;
     width: 80%;
     box-sizing: border-box;
-    padding-top: 20px;
 }
 
 .twenty-top {
@@ -226,7 +277,7 @@ p.small {
 /* Forms */
 
 form label {
-    display: inline-block;
+    display: block;
     margin-bottom: 5px;
     font-weight: bold;
 }
@@ -334,4 +385,34 @@ Modal design
     padding: 10px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
+}
+
+
+/**********************************************
+Table design
+**********************************************/
+.table {
+    display: table;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-row {
+    display: table-row;
+    border-bottom: 1px solid #d6d6d6;
+}
+.table-head {
+    display: table-row;
+    border-bottom: 2px solid #ccc;
+    font-weight: 600;
+}
+
+.table-row:nth-last-child(1) {
+    border-bottom: none !important;
+}
+
+.table-data {
+    display: table-cell;
+    box-sizing: border-box;
+    padding: 10px 0;
 }
